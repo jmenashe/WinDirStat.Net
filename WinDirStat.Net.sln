@@ -5,8 +5,6 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDirStat.Core.UI", "WinDirStat.Core.UI\WinDirStat.Core.UI.csproj", "{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDirStat.Core.Logic", "WinDirStat.Core.Logic\WinDirStat.Core.Logic.csproj", "{8BA60338-F859-4223-934F-F2AAA8307D50}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDirStat.Core.NTFS", "WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj", "{344D1B9C-17FE-4BF4-8F2E-37161421EC56}"
 EndProject
 Global
@@ -25,14 +23,6 @@ Global
 		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Release|Any CPU.Build.0 = Release|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Wpf Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Wpf Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Wpf Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BA60338-F859-4223-934F-F2AAA8307D50}.Wpf Release|Any CPU.Build.0 = Release|Any CPU
 		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
