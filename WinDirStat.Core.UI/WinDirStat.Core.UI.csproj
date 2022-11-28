@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WinDirStat.Core.Logic\WinDirStat.Core.Logic.csproj" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj" />
   </ItemGroup>
 
