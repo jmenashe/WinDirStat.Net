@@ -19,4 +19,8 @@
     <ProjectReference Include="..\WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ViewModel\Graph\" />
+  </ItemGroup>
+
 </Project>

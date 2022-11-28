@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDirStat.Core.UI", "WinDirStat.Core.UI\WinDirStat.Core.UI.csproj", "{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDirStat.Core.UI", "WinDirStat.Core.UI\WinDirStat.Core.UI.csproj", "{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDirStat.Core.NTFS", "WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj", "{344D1B9C-17FE-4BF4-8F2E-37161421EC56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDirStat.Core.NTFS", "WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj", "{344D1B9C-17FE-4BF4-8F2E-37161421EC56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,8 +36,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A93EEC7D-680B-4135-9261-B4201D37538C}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+		SolutionGuid = {A93EEC7D-680B-4135-9261-B4201D37538C}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true

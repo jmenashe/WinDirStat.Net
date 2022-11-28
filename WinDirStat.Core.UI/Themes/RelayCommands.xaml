@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:c="clr-namespace:WinDirStat.Net.Wpf.Commands"
-                    xmlns:vm="clr-namespace:WinDirStat.Net.ViewModel;assembly=WinDirStat.Net.Wpf.Base">
+                    xmlns:vm="clr-namespace:WinDirStat.Net.ViewModel">
   <c:RelayInfoCollection x:Key="MainCommands" ViewModelType="{x:Type vm:MainViewModel}">
     <c:RelayInfo Name="Open" Text="Open..." Key="O" Modifiers="Ctrl" Icon="/WinDirStat.Net;component/Resources/Icons/Open.png"/>
     <c:RelayInfo Name="Save" Text="Save..." Key="S" Modifiers="Ctrl" Icon="/WinDirStat.Net;component/Resources/Icons/Save.png"/>
