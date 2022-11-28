@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WinDirStat.Core.Logic\WinDirStat.Core.Logic.csproj" />
+    <ProjectReference Include="..\WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj" />
+  </ItemGroup>
+
+</Project>
