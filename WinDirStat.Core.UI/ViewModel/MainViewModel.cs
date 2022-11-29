@@ -12,15 +12,15 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Rendering;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.ViewModel.Comparers;
-using WinDirStat.Net.ViewModel.Extensions;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Rendering;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.ViewModel.Comparers;
+using WinDirStat.Core.UI.ViewModel.Extensions;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	/// <summary>The main view model for the program.</summary>
 	public partial class MainViewModel : ViewModelWindow {
 
@@ -125,7 +125,7 @@ namespace WinDirStat.Net.ViewModel {
 		/// <summary>Gets the title to display for the window.</summary>
 		public override string Title {
 			get {
-				string title = "WinDirStat.Net";
+				string title = "WinDirStat.Core.UI";
 				if (Scanning.ProgressState != ScanProgressState.NotStarted) {
 					var paths = Scanning.RootPaths.Select(p => PathUtils.TrimSeparatorEnd(p));
 					title = $"{string.Join("|", paths)} - {title}";

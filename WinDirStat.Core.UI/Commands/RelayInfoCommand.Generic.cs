@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Media;
 using GalaSoft.MvvmLight.CommandWpf;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.ViewModel.Commands;
-using WinDirStat.Net.Wpf.Input;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.ViewModel.Commands;
+using WinDirStat.Core.UI.Wpf.Input;
 
-namespace WinDirStat.Net.Wpf.Commands {
+namespace WinDirStat.Core.UI.Wpf.Commands {
 	public class RelayInfoCommand<T> : RelayCommand<T>, IRelayInfoCommand, IRelayCommand<T> {
 
 		#region Fields

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>The file tree item that displays the amount of unidentified space in the drive.</summary>
 	[Serializable]
 	[DebuggerDisplay("{DebuggerDisplay,nq}")]

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using FormsFolderBrowserDialog = System.Windows.Forms.FolderBrowserDialog;
 using Window = System.Windows.Window;
 
-namespace WinDirStat.Net.Wpf.Windows {
+namespace WinDirStat.Core.UI.Wpf.Windows {
 	/// <summary>
 	/// A wrapper for the folder browser that makes sure it scrolls to the selected folder.
 	/// </summary>

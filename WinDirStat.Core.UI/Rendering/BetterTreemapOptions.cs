@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Structures;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Structures;
+using WinDirStat.Core.UI.Utils;
 
 #if DOUBLE
 using Number = System.Double;
@@ -12,7 +12,7 @@ using Number = System.Double;
 using Number = System.Single;
 #endif
 
-namespace WinDirStat.Net.Rendering {
+namespace WinDirStat.Core.UI.Rendering {
 	/// <summary>A structure containing treemap rendering options.</summary>
 	[Serializable]
 	public struct BetterTreemapOptions {

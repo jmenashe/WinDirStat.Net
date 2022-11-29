@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.Rendering {
+namespace WinDirStat.Core.UI.Rendering {
 	/// <summary>A factory for treemap renderers.</summary>
 	public class TreemapRendererFactory {
 

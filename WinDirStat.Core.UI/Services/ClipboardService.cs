@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>The service for managing the clipboard state.</summary>
 	public class ClipboardService {
 		/// <summary>Gets the text assigned to the clipboard.</summary>

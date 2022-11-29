@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.ViewModel.Commands;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.ViewModel.Commands;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	partial class DriveSelectViewModel {
 		
 		public IRelayCommand OK => GetCommand(OnOK);
@@ -25,7 +25,7 @@ namespace WinDirStat.Net.ViewModel {
 		}
 
 		private void OnSelectFolder() {
-			string newFolder = Dialogs.ShowFolderBrowser(WindowOwner, "WinDirStat.Net - Select Folder", false);
+			string newFolder = Dialogs.ShowFolderBrowser(WindowOwner, "WinDirStat.Core.UI - Select Folder", false);
 			if (newFolder != null) {
 				FolderPath = newFolder;
 			}

@@ -8,9 +8,9 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Wpf.Input;
+using WinDirStat.Core.UI.Wpf.Input;
 
-namespace WinDirStat.Net.Wpf.Commands {
+namespace WinDirStat.Core.UI.Wpf.Commands {
 	/// <summary>
 	/// A class for storing visual command info in XAML.
 	/// </summary>

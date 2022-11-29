@@ -25,7 +25,7 @@ using System.Windows;
 using System.Collections;
 using System.Windows.Input;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public static class ExtensionMethods {
 		public static T FindAncestor<T>(this DependencyObject d) where T : class {
 			return AncestorsAndSelf(d).OfType<T>().FirstOrDefault();

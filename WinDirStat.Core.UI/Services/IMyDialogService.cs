@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using WinDirStat.Net.Model.Drives;
+using WinDirStat.Core.UI.Model.Drives;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for launching dialogs and showing messages.</summary>
 	public interface IMyDialogService {
 

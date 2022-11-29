@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.IO;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>The different types of file tree items.</summary>
 	[Serializable]
 	public enum FileItemType : byte {

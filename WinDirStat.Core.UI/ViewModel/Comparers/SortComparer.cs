@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using GalaSoft.MvvmLight;
 
-namespace WinDirStat.Net.ViewModel.Comparers {
+namespace WinDirStat.Core.UI.ViewModel.Comparers {
 	/// <summary>A helper class for view model comparers.</summary>
 	/// <typeparam name="T">The type of the view model.</typeparam>
 	/// <typeparam name="TSortMode">The type that representings the sort mode.</typeparam>

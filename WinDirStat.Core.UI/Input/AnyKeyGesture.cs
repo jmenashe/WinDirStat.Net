@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Input {
+namespace WinDirStat.Core.UI.Wpf.Input {
 	/// <summary>
 	/// AnyKeyGesture - Key and Modifier combination.
 	///              Can be set on properties of KeyBinding and RoutedCommand.

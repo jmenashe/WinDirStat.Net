@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>An interface for storing the window.</summary>
 	public interface IWindow {
 		/// <summary>Gets the actual window object.</summary>

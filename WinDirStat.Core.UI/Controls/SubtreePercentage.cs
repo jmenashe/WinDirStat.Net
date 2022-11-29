@@ -8,11 +8,11 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using WinDirStat.Net.ViewModel.Files;
-using WinDirStat.Net.Wpf.ViewModel;
-//using WinDirStat.Net.Wpf.Controls.FileList;
+using WinDirStat.Core.UI.ViewModel.Files;
+using WinDirStat.Core.UI.Wpf.ViewModel;
+//using WinDirStat.Core.UI.Wpf.Controls.FileList;
 
-namespace WinDirStat.Net.Wpf.Controls {
+namespace WinDirStat.Core.UI.Wpf.Controls {
 	public class SubtreePercentage : Control {
 		
 		public static readonly DependencyProperty FillProperty =

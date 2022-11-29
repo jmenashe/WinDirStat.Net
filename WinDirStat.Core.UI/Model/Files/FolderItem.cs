@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>The base class for containing all other file items.</summary>
 	/// <remarks>
 	/// Rules for Folder structure:<para/>

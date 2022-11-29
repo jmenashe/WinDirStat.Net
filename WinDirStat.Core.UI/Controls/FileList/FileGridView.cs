@@ -22,9 +22,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Controls;
 using System.Windows;
-using WinDirStat.Net.Wpf.Controls.SortList;
+using WinDirStat.Core.UI.Wpf.Controls.SortList;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public class FileGridView : SortView {
 		static FileGridView() {
 			ItemContainerStyleKey =

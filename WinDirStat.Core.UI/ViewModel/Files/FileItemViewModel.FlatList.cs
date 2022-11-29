@@ -20,7 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	// This part of SharpTreeNode controls the 'flat list' data structure, which emulates
 	// a big flat list containing the whole tree; allowing access by visible index.
 	partial class FileItemViewModel {

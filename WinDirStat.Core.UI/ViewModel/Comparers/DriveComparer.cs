@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.ViewModel.Drives;
+using WinDirStat.Core.UI.ViewModel.Drives;
 
-namespace WinDirStat.Net.ViewModel.Comparers {
+namespace WinDirStat.Core.UI.ViewModel.Comparers {
 	/// <summary>The sort mode for use in the drive select list.</summary>
 	[Serializable]
 	public enum DriveSortMode {

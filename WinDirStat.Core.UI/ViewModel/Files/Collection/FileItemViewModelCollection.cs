@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	/// <summary>The internal modifiable <see cref="FileItemViewModel"/> collection.</summary>
 	internal class FileItemViewModelCollection
 		: ObservableCollectionObject, IList<FileItemViewModel>, IReadOnlyFileItemViewModelCollection

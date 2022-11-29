@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	public class DelayedAction : IDisposable {
 
 		private readonly static HashSet<DelayedAction> actions = new HashSet<DelayedAction>();

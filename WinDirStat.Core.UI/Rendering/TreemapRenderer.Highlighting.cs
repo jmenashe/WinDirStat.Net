@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using TriggersTools.SharpUtils.Collections;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Structures;
 
 #if DOUBLE
 using Number = System.Double;
@@ -17,7 +17,7 @@ using Number = System.Double;
 using Number = System.Single;
 #endif
 
-namespace WinDirStat.Net.Rendering {
+namespace WinDirStat.Core.UI.Rendering {
 	unsafe partial class TreemapRenderer {
 
 		public void HighlightItems(WriteableBitmap bitmap, Rectangle2I rc, Rgba32Color color, IEnumerable<ITreemapItem> items) {

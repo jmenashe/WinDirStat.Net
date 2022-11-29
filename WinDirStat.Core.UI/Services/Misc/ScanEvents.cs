@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>Event args for a <see cref="IScanningService"/> event.</summary>
 	public class ScanEventArgs {
 		/// <summary>The current scan state.</summary>

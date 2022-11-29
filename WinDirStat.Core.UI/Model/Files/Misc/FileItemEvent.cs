@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>The event action type for <see cref="FileItemBase.Changed"/>.</summary>
 	public enum FileItemAction {
 

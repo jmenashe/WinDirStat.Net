@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace WinDirStat.Net.Wpf.Commands {
+namespace WinDirStat.Core.UI.Wpf.Commands {
 	partial class RelayInfo {
 
 		public static readonly DependencyProperty CollectionProperty =

@@ -24,9 +24,9 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Data;
 using System.Windows;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	class EditTextBox : TextBox {
 		static EditTextBox() {
 			DefaultStyleKeyProperty.OverrideMetadata(typeof(EditTextBox),

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace WinDirStat.Net.Wpf.Controls {
+namespace WinDirStat.Core.UI.Wpf.Controls {
 	public class VisibleColumnDefinition : ColumnDefinition {
 
 		public static readonly DependencyProperty VisibleProperty =

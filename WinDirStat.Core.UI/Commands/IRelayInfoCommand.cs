@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Media;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.ViewModel.Commands;
-using WinDirStat.Net.Wpf.Input;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.ViewModel.Commands;
+using WinDirStat.Core.UI.Wpf.Input;
 
-namespace WinDirStat.Net.Wpf.Commands {
+namespace WinDirStat.Core.UI.Wpf.Commands {
 	public interface IRelayInfoCommand : IRelayCommandBase, INotifyPropertyChanged {
 
 		#region Properties

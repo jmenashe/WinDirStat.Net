@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for all UI actions.</summary>
 	public interface IUIService {
 

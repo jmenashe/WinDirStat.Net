@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Model.Drives {
+namespace WinDirStat.Core.UI.Model.Drives {
 	/// <summary>An item containing basic information on a drive.</summary>
 	[Serializable]
 	public class DriveItem : IComparable<DriveItem>, IComparable {

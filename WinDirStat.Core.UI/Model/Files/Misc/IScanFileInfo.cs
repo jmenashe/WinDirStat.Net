@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>An interface revealing information needed to construct file tree items.</summary>
 	public interface IScanFileInfo {
 

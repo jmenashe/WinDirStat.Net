@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net {
+namespace WinDirStat.Core.UI {
 	public static class StringConstants {
 
 		public const string FileName = "File";

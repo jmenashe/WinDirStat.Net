@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	/// <summary>A formatter for displaying bytes with their abbreviations.</summary>
 	public static class FormatBytes {
 

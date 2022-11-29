@@ -1,9 +1,9 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:WinDirStat.Net.Wpf.Controls"
-                    xmlns:conv="clr-namespace:WinDirStat.Net.Wpf.Converters"
-                    xmlns:file="clr-namespace:WinDirStat.Net.Wpf.Controls.FileList"
-                    xmlns:sort="clr-namespace:WinDirStat.Net.Wpf.Controls.SortList"
+                    xmlns:local="clr-namespace:WinDirStat.Core.UI.Wpf.Controls"
+                    xmlns:conv="clr-namespace:WinDirStat.Core.UI.Wpf.Converters"
+                    xmlns:file="clr-namespace:WinDirStat.Core.UI.Wpf.Controls.FileList"
+                    xmlns:sort="clr-namespace:WinDirStat.Core.UI.Wpf.Controls.SortList"
                     xmlns:System="clr-namespace:System;assembly=mscorlib">
 
   <Style TargetType="{x:Type Image}">

@@ -5,11 +5,11 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Wpf.Windows;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Wpf.Windows;
 
-namespace WinDirStat.Net.Wpf.Services {
+namespace WinDirStat.Core.UI.Wpf.Services {
 	/// <summary>A service for launching dialogs and showing messages.</summary>
 	public class DialogService : IMyDialogService {
 

@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class ItemCountFormatter : MarkupExtension, IValueConverter {
 		public static readonly ItemCountFormatter Instance = new ItemCountFormatter();
 

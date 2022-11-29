@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
 
-namespace WinDirStat.Net {
+namespace WinDirStat.Core.UI {
 	/// <summary>An observable object with extra raise property changed methods.</summary>
 	public class ObservableObjectEx : ObservableObject {
 

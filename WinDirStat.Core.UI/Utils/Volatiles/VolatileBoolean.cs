@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	/// <summary>A mutable volatile <see cref="bool"/> that supports compound assignments.</summary>
 	public class VolatileBoolean : Volatile<bool> {
 		

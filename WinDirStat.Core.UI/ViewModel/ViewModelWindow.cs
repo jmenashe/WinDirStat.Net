@@ -6,9 +6,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	/// <summary>An addition to the <see cref="ViewModelBase"/> class with extra helper functions.</summary>
 	public abstract class ViewModelWindow : ViewModelRelayCommand {
 
@@ -28,7 +28,7 @@ namespace WinDirStat.Net.ViewModel {
 		#region Abstract Properties
 
 		/// <summary>Gets the title to display for the window.</summary>
-		public virtual string Title => "WinDirStat.Net";
+		public virtual string Title => "WinDirStat.Core.UI";
 
 		#endregion
 

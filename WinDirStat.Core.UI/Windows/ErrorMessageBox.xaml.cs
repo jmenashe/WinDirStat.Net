@@ -12,9 +12,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Navigation;
 using System.Windows.Threading;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Wpf.Windows {
+namespace WinDirStat.Core.UI.Wpf.Windows {
 	/// <summary>Shows an error that occured in the program.</summary>
 	public partial class ErrorMessageBox : Window {
 

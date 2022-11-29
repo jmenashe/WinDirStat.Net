@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace WinDirStat.Net.ViewModel.Commands {
+namespace WinDirStat.Core.UI.ViewModel.Commands {
 	/// <summary>An interface for working with any type of RelayCommand.</summary>
 	public interface IRelayCommand<T> : IRelayCommandBase {
 		

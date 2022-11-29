@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
 
-namespace WinDirStat.Net {
+namespace WinDirStat.Core.UI {
 	/// <summary>A base class for objects of which the collection must be observable.</summary>
 	public abstract class ObservableCollectionObject : INotifyCollectionChanged {
 

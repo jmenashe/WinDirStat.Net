@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 
 using GdiRectangle = System.Drawing.Rectangle;
 using GdiRectangleF = System.Drawing.RectangleF;
 using WpfInt32Rect = System.Windows.Int32Rect;
 
-namespace WinDirStat.Net.Structures {
+namespace WinDirStat.Core.UI.Structures {
 	[Serializable]
 	[StructLayout(LayoutKind.Sequential)]
 	public struct Rectangle2S {

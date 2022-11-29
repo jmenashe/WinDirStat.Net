@@ -6,10 +6,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Model.Drives {
+namespace WinDirStat.Core.UI.Model.Drives {
 	/// <summary>A collection of see <see cref="DriveItem"/>s.</summary>
 	public class DriveItems : ObservablePropertyCollectionObject, IReadOnlyList<DriveItem> {
 

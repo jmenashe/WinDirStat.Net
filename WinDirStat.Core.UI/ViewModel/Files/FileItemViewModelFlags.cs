@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	/// <summary>Flags for the <see cref="FileItemViewModel"/> state.</summary>
 	[Serializable]
 	[Flags]

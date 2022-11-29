@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.ViewModel.Comparers {
+namespace WinDirStat.Core.UI.ViewModel.Comparers {
 	/// <summary>The sort mode for use in the file tree.</summary>
 	[Serializable]
 	public enum FileSortMode {

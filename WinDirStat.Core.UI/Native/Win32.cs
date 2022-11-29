@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Native {
+namespace WinDirStat.Core.UI.Native {
 	/// <summary>A static class for native methods, structs, and enums.</summary>
 	public static partial class Win32 {
 

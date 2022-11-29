@@ -19,22 +19,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 //using Bitmap = System.Drawing.Bitmap;
 //using Graphics = System.Drawing.Graphics;
 using Brush = System.Drawing.Brush;
 using Pen = System.Drawing.Pen;
 using Color = System.Drawing.Color;
 using Rectangle = System.Drawing.Rectangle;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Structures;
-using WinDirStat.Net.Rendering;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Wpf.ViewModel;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.Wpf.Utils;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Structures;
+using WinDirStat.Core.UI.Rendering;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Wpf.ViewModel;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.Wpf.Utils;
 
-namespace WinDirStat.Net.Wpf.Controls {
+namespace WinDirStat.Core.UI.Wpf.Controls {
 	public class GraphViewHoverEventArgs : RoutedEventArgs {
 
 		public FileItemBase Hover;

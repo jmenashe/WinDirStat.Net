@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	public interface ISystemService {
 		
 		/// <summary>Opens the explorer to display the Computer.</summary>

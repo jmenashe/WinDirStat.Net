@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	/// <summary>A helper with extra methods for paths, files, and directories.</summary>
 	public static class PathUtils {
 

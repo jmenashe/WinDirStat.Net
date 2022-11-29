@@ -6,12 +6,12 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for scanning a path's file tree.</summary>
 	public partial class ScanningService : ObservableVolatileObject {
 

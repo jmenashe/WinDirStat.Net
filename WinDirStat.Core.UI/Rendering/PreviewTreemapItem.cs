@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Structures;
 
-namespace WinDirStat.Net.Rendering {
+namespace WinDirStat.Core.UI.Rendering {
 	/// <summary>An treemap item for previewing purposes only.</summary>
 	public class PreviewTreemapItem : ITreemapItem {
 

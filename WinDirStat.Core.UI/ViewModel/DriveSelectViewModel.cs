@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.ViewModel.Comparers;
-using WinDirStat.Net.ViewModel.Drives;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.ViewModel.Comparers;
+using WinDirStat.Core.UI.ViewModel.Drives;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	/// <summary>The view model for the drive select dialog.</summary>
 	public partial class DriveSelectViewModel : ViewModelWindow {
 
@@ -82,7 +82,7 @@ namespace WinDirStat.Net.ViewModel {
 		#region Override Properties
 
 		/// <summary>Gets the title to display for the window.</summary>
-		public override string Title => "WinDirStat.Net - Drive Select";
+		public override string Title => "WinDirStat.Core.UI - Drive Select";
 
 		#endregion
 

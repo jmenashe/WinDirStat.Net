@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	partial class MainViewModel {
 
 		public void Loaded() {

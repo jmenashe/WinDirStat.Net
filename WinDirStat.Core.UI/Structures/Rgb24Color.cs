@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using GdiColor = System.Drawing.Color;
 using WpfColor = System.Windows.Media.Color;
 
-namespace WinDirStat.Net.Structures {
+namespace WinDirStat.Core.UI.Structures {
 	/// <summary>An unmanaged 24-bit RGB color.</summary>
 	[Serializable]
 	[StructLayout(LayoutKind.Sequential, Pack = 1)]

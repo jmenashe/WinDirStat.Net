@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class RadioButtonConverter : MarkupExtension, IValueConverter {
 		public static readonly RadioButtonConverter Instance = new RadioButtonConverter();
 

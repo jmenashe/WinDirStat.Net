@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.ViewModel.Extensions {
+namespace WinDirStat.Core.UI.ViewModel.Extensions {
 	/// <summary>The view model that represents an <see cref="ExtensionItem"/>.</summary>
 	public class ExtensionItemViewModel : ObservableObject, IDisposable {
 

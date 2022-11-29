@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Input;
 using Microsoft.Xaml.Behaviors;
 
-namespace WinDirStat.Net.Wpf.Controls {
+namespace WinDirStat.Core.UI.Wpf.Controls {
 	/// <summary>A behavior for binding to readonly focus of the element.</summary>
 	public class FocusBehavior : Behavior<UIElement> {
 

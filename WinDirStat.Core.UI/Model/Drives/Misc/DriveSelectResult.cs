@@ -1,7 +1,7 @@
 ﻿using System;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.Model.Drives {
+namespace WinDirStat.Core.UI.Model.Drives {
 	/// <summary>The result returned from the drive select dialog.</summary>
 	public class DriveSelectResult {
 

@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Rendering;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Rendering;
+using WinDirStat.Core.UI.Structures;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	partial class SettingsService {
 		/// <summary>The default file palette colors.</summary>
 		public static readonly ReadOnlyCollection<Rgb24Color> DefaultFilePalette =

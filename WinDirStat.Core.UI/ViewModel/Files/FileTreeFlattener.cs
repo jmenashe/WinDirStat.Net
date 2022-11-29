@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	/// <summary>A flattener for a <see cref="FileItemViewModel"/> tree.</summary>
 	public sealed class FileTreeFlattener : ObservableCollectionObject, IList {
 

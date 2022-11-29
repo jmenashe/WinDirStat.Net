@@ -19,7 +19,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	/// <summary>
 	/// Static helper methods for traversing trees.
 	/// </summary>

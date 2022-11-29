@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using TriggersTools.SharpUtils.Collections;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Structures;
 
 #if DOUBLE
 using Number = System.Double;
@@ -16,7 +16,7 @@ using Number = System.Double;
 using Number = System.Single;
 #endif
 
-namespace WinDirStat.Net.Rendering {
+namespace WinDirStat.Core.UI.Rendering {
 	/// <summary>A service for rendering WinDirStat treemaps.</summary>
 	public unsafe partial class TreemapRenderer {
 

@@ -23,7 +23,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Media;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	class LinesRenderer : FrameworkElement {
 		static LinesRenderer() {
 			pen = new Pen(Brushes.LightGray, 1);

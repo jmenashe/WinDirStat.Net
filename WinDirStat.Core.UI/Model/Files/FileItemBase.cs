@@ -5,12 +5,12 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Rendering;
-using WinDirStat.Net.Structures;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Rendering;
+using WinDirStat.Core.UI.Structures;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>The abstract base class for all file tree items.</summary>
 	[Serializable]
 	[DebuggerDisplay("{DebuggerDisplay,nq}")]

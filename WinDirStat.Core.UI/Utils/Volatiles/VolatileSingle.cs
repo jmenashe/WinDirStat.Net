@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	/// <summary>A mutable volatile <see cref="float"/> that supports compound assignments.</summary>
 	public class VolatileSingle : Volatile<float> {
 

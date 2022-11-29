@@ -5,10 +5,10 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.ViewModel.Drives {
+namespace WinDirStat.Core.UI.ViewModel.Drives {
 	/// <summary>A collection manager for <see cref="DriveItemViewModel"/>s.</summary>
 	public class DriveItemViewModelCollection
 		: ObservablePropertyCollectionObject, IReadOnlyList<DriveItemViewModel>

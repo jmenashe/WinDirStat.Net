@@ -10,11 +10,11 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.Wpf.Utils;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.Wpf.Utils;
 
-namespace WinDirStat.Net.Wpf.Windows {
+namespace WinDirStat.Core.UI.Wpf.Windows {
 	/// <summary>
 	/// Interaction logic for DriveSelectDialog.xaml
 	/// </summary>

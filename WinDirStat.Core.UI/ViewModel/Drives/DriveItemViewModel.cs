@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.ViewModel.Drives {
+namespace WinDirStat.Core.UI.ViewModel.Drives {
 	/// <summary>The view model that represents a drive item.</summary>
 	public class DriveItemViewModel : ObservableObject {
 

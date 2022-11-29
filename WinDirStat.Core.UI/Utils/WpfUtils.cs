@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	public static class WpfUtils {
 		
 		/// <summary>Creates a pack Uri for loading resource images.</summary>

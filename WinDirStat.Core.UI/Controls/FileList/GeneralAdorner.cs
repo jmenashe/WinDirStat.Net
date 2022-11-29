@@ -24,7 +24,7 @@ using System.Windows.Documents;
 using System.Windows;
 using System.Windows.Media;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public class GeneralAdorner : Adorner {
 		public GeneralAdorner(UIElement target)
 			: base(target) {

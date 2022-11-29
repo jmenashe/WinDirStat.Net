@@ -23,7 +23,7 @@ using System.Text;
 using System.Windows.Controls;
 using System.Windows;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public class InsertMarker : Control {
 		static InsertMarker() {
 			DefaultStyleKeyProperty.OverrideMetadata(typeof(InsertMarker),

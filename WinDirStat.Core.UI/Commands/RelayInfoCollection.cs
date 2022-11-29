@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using WinDirStat.Net.ViewModel.Commands;
+using WinDirStat.Core.UI.ViewModel.Commands;
 
-namespace WinDirStat.Net.Wpf.Commands {
+namespace WinDirStat.Core.UI.Wpf.Commands {
 	/// <summary>
 	/// A collection for defining relay command infos in XAML.
 	/// </summary>

@@ -9,7 +9,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace WinDirStat.Net.Wpf.Controls.SortList {
+namespace WinDirStat.Core.UI.Wpf.Controls.SortList {
 	public class SortViewEventArgs : RoutedEventArgs {
 
 		public object Mode { get; }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.ViewModel.Commands;
+using WinDirStat.Core.UI.ViewModel.Commands;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for creating relay commands to be loaded by the view model.</summary>
 	public abstract class RelayCommandFactory {
 

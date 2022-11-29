@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	/// <summary>A static class for creating basic <see cref="IEnumerator"/>s.</summary>
 	public static class Enumerator {
 

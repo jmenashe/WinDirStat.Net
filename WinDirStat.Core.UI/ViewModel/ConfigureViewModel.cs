@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	/// <summary>The view model for the configure dialog.</summary>
 	public partial class ConfigureViewModel : ViewModelWindow {
 
@@ -40,7 +40,7 @@ namespace WinDirStat.Net.ViewModel {
 		#region Override Properties
 
 		/// <summary>Gets the title to display for the window.</summary>
-		public override string Title => "WinDirStat.Net - Settings";
+		public override string Title => "WinDirStat.Core.UI - Settings";
 
 		#endregion
 	}

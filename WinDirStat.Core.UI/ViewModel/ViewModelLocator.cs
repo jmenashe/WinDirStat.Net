@@ -1,7 +1,7 @@
 /*
   In App.xaml:
   <Application.Resources>
-      <vm:ViewModelLocator xmlns:vm="clr-namespace:WinDirStat.Net.Wpf.Single"
+      <vm:ViewModelLocator xmlns:vm="clr-namespace:WinDirStat.Core.UI.Wpf.Single"
                            x:Key="Locator" />
   </Application.Resources>
   
@@ -15,12 +15,12 @@
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using CommonServiceLocator;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.Rendering;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Wpf.Services;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.Rendering;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Wpf.Services;
 
-namespace WinDirStat.Net.Wpf.ViewModel {
+namespace WinDirStat.Core.UI.Wpf.ViewModel {
 	/// <summary>
 	/// This class contains static references to all the view models in the
 	/// application and provides an entry point for the bindings.

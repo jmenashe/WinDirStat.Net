@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Interop;
-using static WinDirStat.Net.Native.Win32;
+using static WinDirStat.Core.UI.Native.Win32;
 
-namespace WinDirStat.Net.Wpf.Utils {
+namespace WinDirStat.Core.UI.Wpf.Utils {
 	public static class WindowExtensions {
 
 		public static void ShowMaximizeMinimize(this Window window, bool maximize, bool minimize) {

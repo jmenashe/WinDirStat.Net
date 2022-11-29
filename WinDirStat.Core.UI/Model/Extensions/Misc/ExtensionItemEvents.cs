@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Model.Extensions {
+namespace WinDirStat.Core.UI.Model.Extensions {
 	/// <summary>The event action type for <see cref="ExtensionItem.Changed"/>.</summary>
 	public enum ExtensionItemAction {
 		// State

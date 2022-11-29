@@ -9,12 +9,12 @@ using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Structures;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.Native;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Structures;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.Native;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>An service for creating and loading bitmaps.</summary>
 	public class BitmapFactory {
 

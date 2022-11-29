@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace WinDirStat.Net.Wpf.Controls.SortList {
+namespace WinDirStat.Core.UI.Wpf.Controls.SortList {
 	public class SortViewKeys {
 		private static Style headerContainerLeftAlignStyle;
 		private static Style headerContainerCenterAlignStyle;

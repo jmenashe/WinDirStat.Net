@@ -2,9 +2,9 @@
 using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Markup;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class ByteFormatter : MarkupExtension, IValueConverter {
 		public static readonly ByteFormatter Instance = new ByteFormatter();
 

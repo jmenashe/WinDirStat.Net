@@ -13,7 +13,7 @@ using System.Windows.Markup;
 using System.IO;
 using System.ComponentModel;
 
-namespace WinDirStat.Net.Wpf.Utils {
+namespace WinDirStat.Core.UI.Wpf.Utils {
 	public static class WpfExtensions {
 		/*/// <summary>Fix the VS designer being a steaming pile of garbage.</summary>
 		/// 

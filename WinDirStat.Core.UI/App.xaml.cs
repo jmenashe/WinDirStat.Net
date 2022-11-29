@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
-using WinDirStat.Net.Wpf.Windows;
+using WinDirStat.Core.UI.Wpf.Windows;
 
-namespace WinDirStat.Net.Wpf {
+namespace WinDirStat.Core.UI.Wpf {
 	/// <summary>
 	///  Interaction logic for App.xaml
 	/// </summary>
@@ -36,9 +36,9 @@ namespace WinDirStat.Net.Wpf {
 		///  Called to avoid referencing assemblies before the assembly resolver can be added.
 		/// </summary>
 		private void Initialize() {
-			ErrorMessageBox.ProgramName = "WinDirStat.Net";
+			ErrorMessageBox.ProgramName = "WinDirStat.Core.UI";
 			ErrorMessageBox.HyperlinkName = "GitHub Page";
-			ErrorMessageBox.HyperlinkUri = new Uri(@"https://github.com/trigger-death/WinDirStat.Net");
+			ErrorMessageBox.HyperlinkUri = new Uri(@"https://github.com/trigger-death/WinDirStat.Core.UI");
 			ErrorMessageBox.ErrorIcon = new BitmapImage(new Uri("pack://application:,,,/Resources/App.ico"));
 			ErrorMessageBox.GlobalHook(this);
 		}

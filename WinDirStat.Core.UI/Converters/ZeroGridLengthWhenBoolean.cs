@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class ZeroGridLengthWhenFalse : MarkupExtension, IValueConverter {
 		public static readonly ZeroGridLengthWhenFalse Instance = new ZeroGridLengthWhenFalse();
 

@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class TextToHorizontalAlignment : MarkupExtension, IValueConverter {
 		public static readonly TextToHorizontalAlignment Instance = new TextToHorizontalAlignment();
 

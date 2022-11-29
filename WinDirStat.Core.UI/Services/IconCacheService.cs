@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Services;
-using static WinDirStat.Net.Native.Win32;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Services;
+using static WinDirStat.Core.UI.Native.Win32;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for caching file and folder icons.</summary>
 	public class IconCacheService {
 

@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class ZeroWhenFalse : MarkupExtension, IValueConverter {
 		public static readonly ZeroWhenFalse Instance = new ZeroWhenFalse();
 

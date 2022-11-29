@@ -4,7 +4,7 @@ using System.IO;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class AttributesFormatter : MarkupExtension, IValueConverter {
 		public static readonly AttributesFormatter Instance = new AttributesFormatter();
 

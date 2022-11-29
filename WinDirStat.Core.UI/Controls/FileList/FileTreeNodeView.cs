@@ -28,9 +28,9 @@ using System.Windows.Media;
 using System.Windows.Input;
 using System.ComponentModel;
 using System.Collections.Specialized;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public class FileTreeNodeView : Control {
 		static FileTreeNodeView() {
 			DefaultStyleKeyProperty.OverrideMetadata(typeof(FileTreeNodeView),

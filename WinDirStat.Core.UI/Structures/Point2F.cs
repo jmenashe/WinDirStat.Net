@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 
 using GdiPoint = System.Drawing.Point;
 using GdiPointF = System.Drawing.PointF;
@@ -11,7 +11,7 @@ using GdiSizeF = System.Drawing.SizeF;
 using WpfPoint = System.Windows.Point;
 using WpfSize = System.Windows.Size;
 
-namespace WinDirStat.Net.Structures {
+namespace WinDirStat.Core.UI.Structures {
 	/// <summary>Point structure for floating point 2D positions (X, Y).</summary>
 	[Serializable]
 	[StructLayout(LayoutKind.Sequential)]

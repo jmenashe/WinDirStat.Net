@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>Information on the contents of the Recycle Bin.</summary>
 	public class RecycleBinInfo {
 		/// <summary>Gets the owner of the Recycle Bin. May be null.</summary>

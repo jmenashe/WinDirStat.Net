@@ -1,5 +1,5 @@
 ﻿
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	/// <summary>A mutable volatile <see cref="int"/> that supports compound assignments.</summary>
 	public class VolatileInt32 : Volatile<int> {
 		

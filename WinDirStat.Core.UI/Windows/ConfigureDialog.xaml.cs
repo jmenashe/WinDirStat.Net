@@ -11,9 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using WinDirStat.Net.Wpf.Utils;
+using WinDirStat.Core.UI.Wpf.Utils;
 
-namespace WinDirStat.Net.Wpf.Windows {
+namespace WinDirStat.Core.UI.Wpf.Windows {
 	/// <summary>
 	/// Interaction logic for ConfigureDialog.xaml
 	/// </summary>

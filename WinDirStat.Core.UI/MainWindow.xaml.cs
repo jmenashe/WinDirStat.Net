@@ -11,11 +11,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.ViewModel.Extensions;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.ViewModel.Extensions;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.Wpf {
+namespace WinDirStat.Core.UI.Wpf {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>

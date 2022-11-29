@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>Specifies result from a dialog message box.</summary>
 	public enum MessageResult {
 		/// <summary>The message box returns no result.</summary>

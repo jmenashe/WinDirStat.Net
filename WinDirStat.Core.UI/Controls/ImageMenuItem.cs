@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.Wpf.Utils;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.Wpf.Utils;
 
-namespace WinDirStat.Net.Wpf.Controls {
+namespace WinDirStat.Core.UI.Wpf.Controls {
 	/// <summary>A menu item with easy access for setting its icon.</summary>
 	public class ImageMenuItem : MenuItem {
 

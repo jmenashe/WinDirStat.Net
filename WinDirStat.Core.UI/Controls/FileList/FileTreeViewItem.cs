@@ -25,9 +25,9 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Input;
 using System.Diagnostics;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public class FileTreeViewItem : ListViewItem {
 		static FileTreeViewItem() {
 			DefaultStyleKeyProperty.OverrideMetadata(typeof(FileTreeViewItem),

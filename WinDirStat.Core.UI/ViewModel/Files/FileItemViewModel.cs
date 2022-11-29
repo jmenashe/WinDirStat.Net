@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.ViewModel.Extensions;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.ViewModel.Extensions;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	/// <summary>A view model for displaying <see cref="FileItem"/> models.</summary>
 	public partial class FileItemViewModel : ObservableObject, IDisposable {
 

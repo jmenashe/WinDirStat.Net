@@ -31,11 +31,11 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
-using WinDirStat.Net.Wpf.Controls.SortList;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.ViewModel.Files;
+using WinDirStat.Core.UI.Wpf.Controls.SortList;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.ViewModel.Files;
 
-namespace WinDirStat.Net.Wpf.Controls.FileList {
+namespace WinDirStat.Core.UI.Wpf.Controls.FileList {
 	public class FileTreeView : SortListView {
 		static FileTreeView() {
 			DefaultStyleKeyProperty.OverrideMetadata(typeof(FileTreeView),

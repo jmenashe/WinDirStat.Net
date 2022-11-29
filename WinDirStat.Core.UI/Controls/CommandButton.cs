@@ -7,14 +7,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using WinDirStat.Net.Model;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.ViewModel;
-using WinDirStat.Net.Wpf.Commands;
-using WinDirStat.Net.Wpf.Utils;
-using WinDirStat.Net.Wpf.ViewModel;
+using WinDirStat.Core.UI.Model;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.ViewModel;
+using WinDirStat.Core.UI.Wpf.Commands;
+using WinDirStat.Core.UI.Wpf.Utils;
+using WinDirStat.Core.UI.Wpf.ViewModel;
 
-namespace WinDirStat.Net.Wpf.Controls {
+namespace WinDirStat.Core.UI.Wpf.Controls {
 	public class CommandButton : ImageButton {
 		private static void OnCommandChanged(DependencyObject d, DependencyPropertyChangedEventArgs e) {
 			CommandButton button = (CommandButton) d;

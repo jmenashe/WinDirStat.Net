@@ -6,12 +6,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
-using static WinDirStat.Net.Model.Extensions.ExtensionItem;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
+using static WinDirStat.Core.UI.Model.Extensions.ExtensionItem;
 
-namespace WinDirStat.Net.ViewModel.Extensions {
+namespace WinDirStat.Core.UI.ViewModel.Extensions {
 	/// <summary>A collection manager for <see cref="ExtensionItemViewModel"/>s.</summary>
 	public class ExtensionItemViewModelCollection
 		: ObservablePropertyCollectionObject, IReadOnlyList<ExtensionItemViewModel>

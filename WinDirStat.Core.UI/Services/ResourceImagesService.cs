@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.Wpf.Services {
+namespace WinDirStat.Core.UI.Wpf.Services {
 	/// <summary>A service for image references.</summary>
 	public class ResourceImagesService : ImagesServiceBase {
 

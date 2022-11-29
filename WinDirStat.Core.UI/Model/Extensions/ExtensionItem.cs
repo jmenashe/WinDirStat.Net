@@ -6,9 +6,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Structures;
 
-namespace WinDirStat.Net.Model.Extensions {
+namespace WinDirStat.Core.UI.Model.Extensions {
 	/// <summary>A container for information about a file extension.</summary>
 	[Serializable]
 	[DebuggerDisplay("{DebuggerDisplay,nq}")]

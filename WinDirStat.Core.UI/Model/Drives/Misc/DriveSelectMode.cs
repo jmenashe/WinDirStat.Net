@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Model.Drives {
+namespace WinDirStat.Core.UI.Model.Drives {
 	/// <summary>The selection mode for drives.</summary>
 	[Serializable]
 	public enum DriveSelectMode {

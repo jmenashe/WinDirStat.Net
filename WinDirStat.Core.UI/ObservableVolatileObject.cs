@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net {
+namespace WinDirStat.Core.UI {
 	/// <summary>An observable object with volatile get and set.</summary>
 	public class ObservableVolatileObject : ObservableObjectEx {
 

@@ -8,14 +8,14 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
-using WinDirStat.Net.Native;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
+using WinDirStat.Core.UI.Native;
 using System.Runtime.InteropServices;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	partial class ScanningService {
 
 		#region Private Classes

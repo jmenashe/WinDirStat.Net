@@ -5,10 +5,10 @@ using System.IO.Filesystem.Ntfs;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Native;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Native;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>Information about a file used to populate a file item.</summary>
 	public struct ScanFileInfo : IScanFileInfo {
 

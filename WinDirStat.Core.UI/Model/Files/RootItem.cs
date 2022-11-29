@@ -4,10 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>
 	/// A root file tree item that is either the absolute root, a file root (volume/folder), or both.
 	/// If this root is not a file root, it's children must all be <see cref="RootItem"/>s.

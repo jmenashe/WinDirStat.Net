@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Utils {
+namespace WinDirStat.Core.UI.Utils {
 	public static class DelayedGC {
 
 		public static DelayedAction CollectIn(TimeSpan delay) {

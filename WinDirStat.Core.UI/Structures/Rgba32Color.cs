@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 using GdiColor = System.Drawing.Color;
 using WpfColor = System.Windows.Media.Color;
 
-namespace WinDirStat.Net.Structures {
+namespace WinDirStat.Core.UI.Structures {
 	
 
 	/// <summary>An unmanaged 32-bit RGBA color with.</summary>

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.ViewModel.Commands;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.ViewModel.Commands;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	/// <summary>An addition to the <see cref="ViewModelBase"/> class with extra helper functions.</summary>
 	public abstract class ViewModelRelayCommand : ViewModelBase {
 

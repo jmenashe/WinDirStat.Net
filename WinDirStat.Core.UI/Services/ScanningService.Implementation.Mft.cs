@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	partial class ScanningService {
 
 		#region Private Structures

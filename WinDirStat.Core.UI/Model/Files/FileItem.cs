@@ -5,10 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Model.Extensions;
-using WinDirStat.Net.Services;
+using WinDirStat.Core.UI.Model.Extensions;
+using WinDirStat.Core.UI.Services;
 
-namespace WinDirStat.Net.Model.Files {
+namespace WinDirStat.Core.UI.Model.Files {
 	/// <summary>The file tree item that identifies an actual file.</summary>
 	[Serializable]
 	public class FileItem : FileItemBase {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	partial class FileItemViewModel {
 
 		private FileItemViewModelFlags flags = FileItemViewModelFlags.None;

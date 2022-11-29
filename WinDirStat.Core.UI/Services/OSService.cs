@@ -9,10 +9,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Interop;
-using WinDirStat.Net.Services;
-using static WinDirStat.Net.Native.Win32;
+using WinDirStat.Core.UI.Services;
+using static WinDirStat.Core.UI.Native.Win32;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for OS-specific actions.</summary>
 	public class OSService {
 

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace WinDirStat.Net.Wpf.Input {
+namespace WinDirStat.Core.UI.Wpf.Input {
 	public class AnyKeyGestureConverter : TypeConverter {
 		private const char MODIFIERS_DELIMITER = '+';
 		internal const char DISPLAYSTRING_SEPARATOR = ',';

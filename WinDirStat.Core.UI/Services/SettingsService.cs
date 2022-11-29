@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using GalaSoft.MvvmLight;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Rendering;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Rendering;
+using WinDirStat.Core.UI.Structures;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>The service for containing all program settings.</summary>
 	public partial class SettingsService : ObservableObjectEx {
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>The scan states for <see cref="IScanningService"/>.</summary>
 	[Serializable]
 	public enum ScanState {

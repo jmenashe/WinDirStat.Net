@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Structures;
+using WinDirStat.Core.UI.Structures;
 
-namespace WinDirStat.Net.Services {
+namespace WinDirStat.Core.UI.Services {
 	/// <summary>An interface for creating and loading bitmaps.</summary>
 	public interface IBitmapFactory {
 

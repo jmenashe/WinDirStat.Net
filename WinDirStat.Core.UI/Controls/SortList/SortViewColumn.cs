@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace WinDirStat.Net.Wpf.Controls.SortList {
+namespace WinDirStat.Core.UI.Wpf.Controls.SortList {
 	public class SortViewColumn : GridViewColumn {
 
 		public static readonly DependencyProperty TextAlignmentProperty =
@@ -101,7 +101,7 @@ namespace WinDirStat.Net.Wpf.Controls.SortList {
 			get {
 				if (resourceDictionary == null) {
 					resourceDictionary = new ResourceDictionary();
-					resourceDictionary.Source = new Uri("/WinDirStat.Net;component/Themes/Generic.xaml", UriKind.RelativeOrAbsolute);
+					resourceDictionary.Source = new Uri("/WinDirStat.Core.UI;component/Themes/Generic.xaml", UriKind.RelativeOrAbsolute);
 				}
 				return resourceDictionary;
 			}

@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinDirStat.Net.Rendering {
+namespace WinDirStat.Core.UI.Rendering {
 	/// <summary>The types of render methods for treemaps.</summary>
 	[Serializable]
 	public enum TreemapStyle {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.ViewModel.Commands;
-using WinDirStat.Net.Wpf.Commands;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.ViewModel.Commands;
+using WinDirStat.Core.UI.Wpf.Commands;
 
-namespace WinDirStat.Net.Wpf.Services {
+namespace WinDirStat.Core.UI.Wpf.Services {
 	/// <summary>A service for creating relay commands to be loaded by the view model.</summary>
 	public class RelayInfoCommandFactory : RelayCommandFactory {
 

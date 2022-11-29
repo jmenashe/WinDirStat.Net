@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace WinDirStat.Net.Wpf.Converters {
+namespace WinDirStat.Core.UI.Wpf.Converters {
 	public class ScaleConverter : MarkupExtension, IValueConverter {
 		public static readonly ScaleConverter Instance = new ScaleConverter();
 

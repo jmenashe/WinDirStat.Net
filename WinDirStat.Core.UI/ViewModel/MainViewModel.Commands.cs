@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
-using WinDirStat.Net.Model.Drives;
-using WinDirStat.Net.Model.Files;
-using WinDirStat.Net.Services;
-using WinDirStat.Net.ViewModel.Commands;
+using WinDirStat.Core.UI.Model.Drives;
+using WinDirStat.Core.UI.Model.Files;
+using WinDirStat.Core.UI.Services;
+using WinDirStat.Core.UI.ViewModel.Commands;
 
-namespace WinDirStat.Net.ViewModel {
+namespace WinDirStat.Core.UI.ViewModel {
 	partial class MainViewModel {
 		
 		#region File Menu

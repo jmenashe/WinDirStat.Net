@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using WinDirStat.Net.Utils;
+using WinDirStat.Core.UI.Utils;
 
-namespace WinDirStat.Net.ViewModel.Files {
+namespace WinDirStat.Core.UI.ViewModel.Files {
 	partial class FileItemViewModel {
 
 		private bool isVisible = true;
