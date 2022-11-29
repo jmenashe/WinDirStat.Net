@@ -8,6 +8,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <ApplicationIcon>Resources\App.ico</ApplicationIcon>
+    <XamlDebuggingInformation>true</XamlDebuggingInformation>
   </PropertyGroup>
 
   <ItemGroup>
