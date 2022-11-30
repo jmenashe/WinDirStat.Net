@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WinDirStat.Core.UI.Services;
-using WinDirStat.Core.UI.ViewModel.Commands;
+using CommunityToolkit.Mvvm.Input;
 using WinDirStat.Core.UI.Wpf.Commands;
 
 namespace WinDirStat.Core.UI.Wpf.Services {

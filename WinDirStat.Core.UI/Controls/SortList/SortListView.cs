@@ -142,7 +142,7 @@ namespace WinDirStat.Core.UI.Wpf.Controls.SortList {
 					//listView.Style = (Style) listView.FindResource(typeof(SortListView));
 				}
 				else if (e.NewValue != null) {
-					throw new InvalidOperationException($"View is not a {nameof(SortView)}!");
+					//throw new InvalidOperationException($"View is not a {nameof(SortView)}!");
 				}
 				listView.UpdateColumns();
 			}

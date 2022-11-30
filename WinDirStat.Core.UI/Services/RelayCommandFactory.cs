@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WinDirStat.Core.UI.ViewModel.Commands;
+using CommunityToolkit.Mvvm.Input;
 
 namespace WinDirStat.Core.UI.Services {
 	/// <summary>A service for creating relay commands to be loaded by the view model.</summary>

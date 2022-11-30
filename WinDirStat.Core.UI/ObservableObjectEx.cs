@@ -4,7 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using GalaSoft.MvvmLight;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace WinDirStat.Core.UI {
 	/// <summary>An observable object with extra raise property changed methods.</summary>
@@ -15,9 +16,9 @@ namespace WinDirStat.Core.UI {
 		/// <param name="condition">The condition for raising the changed event.</param>
 		/// <param name="propertyName">The name of the property.</param>
 		/// <returns>True if the property was changed.</returns>
-		protected bool RaisePropertyChangedIf(bool condition, [CallerMemberName] string propertyName = null) {
-			RaisePropertyChanged(propertyName);
-			return condition;
+		protected void RaisePropertyChangedIf(bool condition, [CallerMemberName] string propertyName = null) {
+			if(condition)
+				this.OnPropertyChanged(propertyName);
 		}
 	}
 }

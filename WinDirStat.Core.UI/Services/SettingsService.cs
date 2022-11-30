@@ -8,7 +8,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using GalaSoft.MvvmLight;
 using WinDirStat.Core.UI.Model.Drives;
 using WinDirStat.Core.UI.Rendering;
 using WinDirStat.Core.UI.Structures;

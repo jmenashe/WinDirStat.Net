@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
-using GalaSoft.MvvmLight;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace WinDirStat.Core.UI.ViewModel.Comparers {
 	/// <summary>A helper class for view model comparers.</summary>

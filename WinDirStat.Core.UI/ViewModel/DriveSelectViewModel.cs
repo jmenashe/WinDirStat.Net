@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GalaSoft.MvvmLight;
 using WinDirStat.Core.UI.Model.Drives;
 using WinDirStat.Core.UI.Services;
 using WinDirStat.Core.UI.ViewModel;

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using WinDirStat.Core.UI.Model.Drives;
 using WinDirStat.Core.UI.Model.Files;
 using WinDirStat.Core.UI.Services;
-using WinDirStat.Core.UI.ViewModel.Commands;
+using CommunityToolkit.Mvvm.Input;
 
 namespace WinDirStat.Core.UI.ViewModel {
 	partial class MainViewModel {

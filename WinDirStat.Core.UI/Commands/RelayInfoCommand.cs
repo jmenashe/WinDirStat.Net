@@ -7,18 +7,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Media;
-using GalaSoft.MvvmLight.CommandWpf;
+using CommunityToolkit.Mvvm.Input;
+using GalaRelayCommand = GalaSoft.MvvmLight.Command.RelayCommand;
 using WinDirStat.Core.UI.ViewModel;
-using WinDirStat.Core.UI.ViewModel.Commands;
+using CommunityToolkit.Mvvm.Input;
 using WinDirStat.Core.UI.Wpf.Input;
 
 namespace WinDirStat.Core.UI.Wpf.Commands {
-	public class RelayInfoCommand : RelayCommand, IRelayInfoCommand, IRelayCommand {
+	public class RelayInfoCommand : IRelayInfoCommand, IRelayCommand {
 
 		#region Fields
 
 		/// <summary>The UI specific info for the command.</summary>
 		private RelayInfo info;
+		private RelayCommand cmd;
 
 		#endregion
 
@@ -38,8 +40,8 @@ namespace WinDirStat.Core.UI.Wpf.Commands {
 		/// 
 		/// <exception cref="ArgumentNullException"><paramref name="execute"/> is null.</exception>
 		public RelayInfoCommand(Action execute, bool keepTargetAlive = false)
-			: base(execute, null, keepTargetAlive)
 		{
+			cmd = new(execute);
 		}
 
 		/// <summary>Constructs the <see cref="RelayInfoCommand"/>.</summary>
@@ -60,8 +62,8 @@ namespace WinDirStat.Core.UI.Wpf.Commands {
 		/// 
 		/// <exception cref="ArgumentNullException"><paramref name="execute"/> is null.</exception>
 		public RelayInfoCommand(Action execute, Func<bool> canExecute, bool keepTargetAlive = false)
-			: base(execute, canExecute, keepTargetAlive)
 		{
+			cmd = new(execute, canExecute);
 		}
 
 		#endregion
@@ -96,13 +98,14 @@ namespace WinDirStat.Core.UI.Wpf.Commands {
 
 		/// <summary>Called when a property has changed.</summary>
 		public event PropertyChangedEventHandler PropertyChanged;
+        public event EventHandler CanExecuteChanged;
 
-		#endregion
+        #endregion
 
-		#region Execute
-		
-		/// <summary>Executes the method without a parameter.</summary>
-		public void Execute() => Execute(null);
+        #region Execute
+
+        /// <summary>Executes the method without a parameter.</summary>
+        public void Execute() => Execute(null);
 
 		#endregion
 
@@ -136,6 +139,11 @@ namespace WinDirStat.Core.UI.Wpf.Commands {
 			}
 		}
 
-		#endregion
-	}
+		public void RaiseCanExecuteChanged() => this.cmd.NotifyCanExecuteChanged();
+		public bool CanExecute(object parameter) => this.cmd.CanExecute(parameter);
+		public void Execute(object parameter) => this.cmd.Execute(parameter);
+        public void NotifyCanExecuteChanged() => this.cmd.NotifyCanExecuteChanged();
+
+        #endregion
+    }
 }

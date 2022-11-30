@@ -11,7 +11,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using GalaSoft.MvvmLight;
 using WinDirStat.Core.UI.Model.Files;
 using WinDirStat.Core.UI.Rendering;
 using WinDirStat.Core.UI.Services;

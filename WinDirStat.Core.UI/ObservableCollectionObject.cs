@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using GalaSoft.MvvmLight;
+using CommunityToolkit.Mvvm.Input;
 
 namespace WinDirStat.Core.UI {
 	/// <summary>A base class for objects of which the collection must be observable.</summary>

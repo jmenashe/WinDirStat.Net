@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
-using GalaSoft.MvvmLight;
+using CommunityToolkit.Mvvm.ComponentModel;
 using WinDirStat.Core.UI.Wpf.Input;
 
 namespace WinDirStat.Core.UI.Wpf.Commands {

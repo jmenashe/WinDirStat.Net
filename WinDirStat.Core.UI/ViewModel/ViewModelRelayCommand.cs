@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using GalaSoft.MvvmLight;
+using CommunityToolkit.Mvvm.Input;
 using WinDirStat.Core.UI.Services;
-using WinDirStat.Core.UI.ViewModel.Commands;
 
 namespace WinDirStat.Core.UI.ViewModel {
 	/// <summary>An addition to the <see cref="ViewModelBase"/> class with extra helper functions.</summary>

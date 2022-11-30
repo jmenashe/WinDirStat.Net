@@ -9,7 +9,7 @@ namespace WinDirStat.Core.Logic {
 	/// A sync behaviour for a multiselector.
 	/// </summary>
 	public static class MultiSelectorBehaviors {
-		public static readonly DependencyProperty SynchronizedSelectedItems = DependencyProperty.RegisterAttached(
+		public static readonly DependencyProperty SynchronizedSelectedItemsProperty = DependencyProperty.RegisterAttached(
 			"SynchronizedSelectedItems", typeof(IList), typeof(MultiSelectorBehaviors), new PropertyMetadata(null, OnSynchronizedSelectedItemsChanged));
 
 		private static readonly DependencyProperty SynchronizationManagerProperty = DependencyProperty.RegisterAttached(
@@ -21,7 +21,7 @@ namespace WinDirStat.Core.Logic {
 		/// <param name="dependencyObject">The dependency object.</param>
 		/// <returns>The list that is acting as the sync list.</returns>
 		public static IList GetSynchronizedSelectedItems(DependencyObject dependencyObject) {
-			return (IList) dependencyObject.GetValue(SynchronizedSelectedItems);
+			return (IList) dependencyObject.GetValue(SynchronizedSelectedItemsProperty);
 		}
 
 		/// <summary>
@@ -30,7 +30,7 @@ namespace WinDirStat.Core.Logic {
 		/// <param name="dependencyObject">The dependency object.</param>
 		/// <param name="value">The value to be set as synchronized items.</param>
 		public static void SetSynchronizedSelectedItems(DependencyObject dependencyObject, IList value) {
-			dependencyObject.SetValue(SynchronizedSelectedItems, value);
+			dependencyObject.SetValue(SynchronizedSelectedItemsProperty, value);
 		}
 
 		private static SynchronizationManager GetSynchronizationManager(DependencyObject dependencyObject) {

@@ -14,7 +14,6 @@
 
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
-using CommonServiceLocator;
 using WinDirStat.Core.UI.ViewModel;
 using WinDirStat.Core.UI.Rendering;
 using WinDirStat.Core.UI.Services;

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
-using GalaSoft.MvvmLight;
+using CommunityToolkit.Mvvm.ComponentModel;
 using WinDirStat.Core.UI.Model.Drives;
 using WinDirStat.Core.UI.Services;
 using WinDirStat.Core.UI.Utils;

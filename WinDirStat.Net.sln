@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDirStat.Core.UI", "WinDirStat.Core.UI\WinDirStat.Core.UI.csproj", "{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDirStat.Core.NTFS", "WinDirStat.Core.NTFS\WinDirStat.Core.NTFS.csproj", "{344D1B9C-17FE-4BF4-8F2E-37161421EC56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Wpf Debug|Any CPU = Wpf Debug|Any CPU
+		Wpf Release|Any CPU = Wpf Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B3ADD6-B990-40C0-A3F8-762D572B8A4C}.Wpf Release|Any CPU.Build.0 = Release|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Wpf Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Wpf Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Wpf Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344D1B9C-17FE-4BF4-8F2E-37161421EC56}.Wpf Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A93EEC7D-680B-4135-9261-B4201D37538C}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
